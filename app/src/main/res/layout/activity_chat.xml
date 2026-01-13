@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F172A">
+
+    <!-- TOP BAR -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#6366F1"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="16dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Simple Chat"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="Profile"
+            android:textAllCaps="false"
+            android:backgroundTint="#E0E7FF"
+            android:textColor="#1E293B" />
+    </LinearLayout>
+
+    <!-- CHAT AREA -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/chatLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp" />
+    </ScrollView>
+
+    <!-- BOTTOM INPUT -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:gravity="center_vertical">
+
+        <EditText
+            android:id="@+id/etMessage"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:hint="Ketik pesan..."
+            android:textColor="#E5E7EB"
+            android:textColorHint="#94A3B8"
+            android:paddingHorizontal="16dp"
+            android:background="@drawable/bg_input_chat" />
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:text="Kirim"
+            android:textAllCaps="false"
+            android:paddingHorizontal="16dp"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="#6366F1"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:text="Clear"
+            android:textAllCaps="false"
+            android:paddingHorizontal="12dp"
+            android:layout_marginStart="4dp"
+            android:backgroundTint="#334155"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>

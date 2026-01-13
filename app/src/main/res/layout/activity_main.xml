@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#FFFFFF">
+
+    <!-- LOGO -->
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/michat_logo"
+        android:layout_marginBottom="12dp" />
+
+    <!-- TITLE -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SimpleChat Lite"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginBottom="4dp" />
+
+    <!-- SUBTITLE -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login atau daftar untuk lanjut"
+        android:textSize="14sp"
+        android:textColor="#757575"
+        android:layout_marginBottom="32dp" />
+
+    <!-- EMAIL -->
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:background="@drawable/bg_edittext_rounded"
+        android:textColor="#212121"
+        android:textColorHint="#616161"
+        android:layout_marginBottom="12dp" />
+
+    <!-- PASSWORD -->
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:background="@drawable/bg_edittext_rounded"
+        android:textColor="#212121"
+        android:textColorHint="#616161"
+        android:layout_marginBottom="20dp" />
+
+    <!-- LOGIN -->
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:elevation="6dp" />
+
+    <!-- REGISTER (PUTIH TAPI KELIHATAN) -->
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textColor="#4CAF50"
+        android:backgroundTint="#FFFFFF"
+        android:elevation="4dp"
+        android:layout_marginTop="10dp" />
+
+    <!-- DIVIDER -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="atau"
+        android:textColor="#9E9E9E"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="12dp" />
+
+    <!-- GOOGLE LOGIN -->
+    <Button
+        android:id="@+id/btnGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Login dengan Google"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#202124"
+        android:elevation="6dp" />
+
+</LinearLayout>

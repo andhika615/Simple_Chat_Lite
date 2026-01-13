@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">simplechatlite</string>
+
+    <string name="default_web_client_id">
+        356549982614-n6s438iqj1r8af94a8j78rakcdl2lbrp.apps.googleusercontent.com
+    </string>
+</resources>

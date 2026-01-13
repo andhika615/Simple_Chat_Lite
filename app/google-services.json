@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "356549982614",
+    "firebase_url": "https://simplechatlite-default-rtdb.firebaseio.com",
+    "project_id": "simplechatlite",
+    "storage_bucket": "simplechatlite.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356549982614:android:5e4cd6952b0c97934e85b7",
+        "android_client_info": {
+          "package_name": "com.example.simplechatlite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356549982614-psqtfiqpg14llum87d769r679050dnfm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.simplechatlite",
+            "certificate_hash": "e297275e56e50080ba4b9ccf6460571cc3c692da"
+          }
+        },
+        {
+          "client_id": "356549982614-n6s438iqj1r8af94a8j78rakcdl2lbrp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkdONnaGa1RmuRhc7wARNRNwUXCR5HJRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356549982614-n6s438iqj1r8af94a8j78rakcdl2lbrp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#0F172A"
+    android:padding="24dp">
+
+    <!-- CARD -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:background="@drawable/bg_profile_card"
+        android:elevation="6dp">
+
+        <!-- AVATAR -->
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/_408175"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- LABEL -->
+        <TextView
+            android:text="Akun Login"
+            android:textColor="#94A3B8"
+            android:textSize="13sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- EMAIL -->
+        <TextView
+            android:id="@+id/tvEmail"
+            android:text="user@email.com"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- LOGOUT -->
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:text="Logout"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#EF4444"/>
+
+        <!-- BACK -->
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:text="Kembali ke Chat"
+            android:textAllCaps="false"
+            android:layout_marginTop="12dp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#6366F1"/>
+
+    </LinearLayout>
+
+</LinearLayout>
